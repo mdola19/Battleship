@@ -1,0 +1,160 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".GameScreen">
+
+    <ImageView
+        android:id="@+id/gameBG"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"
+        android:scaleType="centerCrop"
+        android:src="@drawable/one"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/goHome"
+        android:layout_width="50dp"
+        android:layout_height="60dp"
+        android:layout_marginStart="90dp"
+        android:layout_marginTop="20dp"
+        android:background="#00FFFFFF"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <GridView
+        android:id="@+id/playGrid"
+        android:layout_width="330dp"
+        android:layout_height="330dp"
+        android:layout_marginStart="38dp"
+        android:layout_marginTop="180dp"
+        android:numColumns="13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <GridView
+        android:id="@+id/playGrid2"
+        android:layout_width="330dp"
+        android:layout_height="330dp"
+        android:layout_marginStart="42dp"
+        android:layout_marginTop="175dp"
+        android:visibility="invisible"
+        android:numColumns="13"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tiles"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="-130dp"
+        android:layout_marginTop="575dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        app:layout_constraintStart_toEndOf="@+id/playGrid"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/tiles2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="-130dp"
+        android:layout_marginTop="575dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:visibility="invisible"
+        android:textSize="18dp"
+        app:layout_constraintStart_toEndOf="@+id/playGrid"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/shots"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="-160dp"
+        android:layout_marginTop="615dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        app:layout_constraintStart_toEndOf="@+id/playGrid"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/shots2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="-160dp"
+        android:layout_marginTop="615dp"
+        android:text="0"
+        android:visibility="invisible"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        app:layout_constraintStart_toEndOf="@+id/playGrid"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/active"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="-150dp"
+        android:layout_marginTop="693dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        app:layout_constraintStart_toEndOf="@+id/playGrid"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/active2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="-150dp"
+        android:layout_marginTop="693dp"
+        android:text="0"
+        android:visibility="invisible"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        app:layout_constraintStart_toEndOf="@+id/playGrid"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sunk"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="-170dp"
+        android:layout_marginTop="658dp"
+        android:text="0"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        app:layout_constraintStart_toEndOf="@+id/playGrid"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <TextView
+        android:id="@+id/sunk2"
+        android:layout_width="30dp"
+        android:layout_height="30dp"
+        android:layout_marginStart="-170dp"
+        android:layout_marginTop="658dp"
+        android:text="0"
+        android:visibility="invisible"
+        android:textAlignment="center"
+        android:textColor="#FFFFFF"
+        android:textSize="18dp"
+        app:layout_constraintStart_toEndOf="@+id/playGrid"
+        app:layout_constraintTop_toTopOf="parent" />
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>
