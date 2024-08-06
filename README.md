@@ -1,5 +1,5 @@
 # Battleship
-For my final summative of Grade 12 Computer Science, we were assigned to re-create a board game in the form of an app. A game I loved playing throughout my childhood was Battleship so I set out to re-create this game for today's youth in a more accessible form (app). This app essentially allows for a two player game of Battleship where players can design there ships and place them where they want. The rest of the game is just simply guessing and attacking your opponent.
+A game I loved playing throughout my childhood was Battleship so I set out to re-create this game for today's youth in a more accessible form (app). This app essentially allows for a two player game of Battleship where players can design there ships and place them where they want. The rest of the game is just simply guessing and attacking your opponent.
 
 ### Game Description:
 Two players are each given a grid to place down their ships, taking turns. A ship is placed by inputting it's shape, size, and location and pressing create. Players take turns setting up their boards after which they enter the game screen where everything is hidden on a blank grid. Players can take turns guessing random cells until they locate a ship. After all the cells of a ship have been clicked, it is sunk. The first player to sink all the opponent's ships wins. 
